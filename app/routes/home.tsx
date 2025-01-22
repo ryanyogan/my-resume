@@ -1,5 +1,3 @@
-import type { Route } from "./+types/home";
-
 export function meta({}: Route.MetaArgs) {
   return [
     { title: "Ryan Yogan - Resume" },
@@ -25,8 +23,8 @@ export default function Home() {
       </div>
 
       <div className="section">
-        <p>
-          Technology leader specializing in beauitful and fast UI/UX,
+        <p className="hero-text">
+          Technology leader specializing in beautiful and fast UI/UX,
           distributed systems, AI/ML integration, and high-performing
           engineering organizations. Track record of driving innovation while
           fostering empathy-driven teams and delivering complex initiatives at
@@ -116,8 +114,8 @@ export default function Home() {
             </li>
             <li>
               Managed 8 direct reports, providing consistent feedback and
-              mentoring. Challenges ranging from react user interfaces, to scala
-              backend data-pipelines, mentoring and guidance was cruicial as we
+              mentoring. Challenges ranged from React user interfaces to Scala
+              backend data pipelines. Mentoring and guidance were crucial as we
               scaled the team.
             </li>
           </ul>
@@ -137,9 +135,9 @@ export default function Home() {
               technical tracks
             </li>
             <li>
-              Managed up-to 15 direct reports, mainted weekly 1:1's, consistent
-              career pathing, and adjustments to KPI's allowing for personal
-              growth that coorelated to the business goals
+              Managed up to 15 direct reports, maintained weekly 1:1s,
+              consistent career pathing, and adjustments to KPIs allowing for
+              personal growth that correlated to the business goals
             </li>
             <li>
               Led global performance initiative reducing page load from 11s to
@@ -157,15 +155,16 @@ export default function Home() {
             </li>
             <li>
               Worked with product and UX teams to launch Procore's Developer
-              Academy, starting as a `grass-roots` initiative to continue
-              learning. This program evolved into a formalized training program
-              for new hires and anyone within the org that has a desire to
+              Academy, starting as a grassroots initiative to continue learning.
+              This program evolved into a formalized training program for new
+              hires and anyone within the organization that has a desire to
               learn. This is how Procore solved complex challenges, education!
             </li>
             <li>
-              Worked with recruitment consitently to ensure a fair and amazing
-              interview process. I interviewed over 700 candidates, ensure that
-              recruitment had all required to be the best in the business :)
+              Worked with recruitment consistently to ensure a fair and amazing
+              interview process. I interviewed over 700 candidates, ensuring
+              that recruitment had all required to be the best in the business
+              :)
             </li>
           </ul>
         </div>
@@ -173,22 +172,20 @@ export default function Home() {
 
       <div className="section">
         <h2>SKILLS & EXPERTISE</h2>
-        <div className="skills-grid">
-          <div className="skill-category">
-            <h3>Leadership</h3>
-            Engineering Leadership • Team Building • Technical Strategy •
-            Product Vision
-          </div>
-          <div className="skill-category">
-            <h3>Architecture</h3>
-            Distributed Systems • Event-Driven • Edge Computing • AI/ML
-            Integration
-          </div>
-          <div className="skill-category">
-            <h3>Technologies</h3>
-            Next.js • TypeScript • Elixir • Go • Rust • React • GraphQL • AWS
-          </div>
-        </div>
+        <ul className="skills-list">
+          <li className="skill-item">
+            <strong>Leadership:</strong> Engineering Leadership, Team Building,
+            Technical Strategy, Product Vision
+          </li>
+          <li className="skill-item">
+            <strong>Architecture:</strong> Distributed Systems, Event-Driven,
+            Edge Computing, AI/ML Integration
+          </li>
+          <li className="skill-item">
+            <strong>Technologies:</strong> Next.js, TypeScript, Elixir, Go,
+            Rust, React, GraphQL, AWS
+          </li>
+        </ul>
       </div>
     </>
   );
