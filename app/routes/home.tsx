@@ -169,23 +169,6 @@ export default function Home() {
             </li>
           </ul>
         </div>
-
-        <div className="legacy-experience">
-          <div className="legacy-job">
-            <strong>Director of Engineering</strong> | Montway Auto Transport
-            (2015-2016)
-            <br />
-            Led greenfield development of ML-powered routing platform reducing
-            planning time by 60% and fuel costs by $2M annually
-          </div>
-          <div className="legacy-job">
-            <strong>VP of Research & Development</strong> | Sonian (2013-2015)
-            <br />
-            Pioneered early serverless architecture with AWS Lambda team,
-            reducing infrastructure costs by $1.2M annually while scaling to
-            process 50B+ events
-          </div>
-        </div>
       </div>
 
       <div className="section">
@@ -206,16 +189,6 @@ export default function Home() {
             Next.js • TypeScript • Elixir • Go • Rust • React • GraphQL • AWS
           </div>
         </div>
-      </div>
-
-      <div className="section">
-        <h2>INNOVATIONS</h2>
-        <ul>
-          <li>
-            AI-powered procurement automation platform • Real-time aviation
-            systems • Serverless architecture patents
-          </li>
-        </ul>
       </div>
     </>
   );
