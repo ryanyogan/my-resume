@@ -2,8 +2,8 @@ import type { Route } from "./+types/home";
 
 export function meta({}: Route.MetaArgs) {
   return [
-    { title: "New React Router App" },
-    { name: "description", content: "Welcome to React Router!" },
+    { title: "Ryan Yogan - Resume" },
+    { name: "description", content: "About Ryan Yogan" },
   ];
 }
 
@@ -26,10 +26,11 @@ export default function Home() {
 
       <div className="section">
         <p>
-          Technology leader specializing in distributed systems, AI/ML
-          integration, and high-performing engineering organizations. Track
-          record of driving innovation while fostering empathy-driven teams and
-          delivering complex initiatives at scale.
+          Technology leader specializing in beauitful and fast UI/UX,
+          distributed systems, AI/ML integration, and high-performing
+          engineering organizations. Track record of driving innovation while
+          fostering empathy-driven teams and delivering complex initiatives at
+          scale.
         </p>
       </div>
 
@@ -113,6 +114,12 @@ export default function Home() {
               systems design, resulting in 95% team retention and 3 internal
               promotions
             </li>
+            <li>
+              Managed 8 direct reports, providing consistent feedback and
+              mentoring. Challenges ranging from react user interfaces, to scala
+              backend data-pipelines, mentoring and guidance was cruicial as we
+              scaled the team.
+            </li>
           </ul>
         </div>
 
@@ -128,6 +135,11 @@ export default function Home() {
               Scaled UI organization from 8 to 65 engineers across 11 product
               teams, implementing matrix management structure with dedicated
               technical tracks
+            </li>
+            <li>
+              Managed up-to 15 direct reports, mainted weekly 1:1's, consistent
+              career pathing, and adjustments to KPI's allowing for personal
+              growth that coorelated to the business goals
             </li>
             <li>
               Led global performance initiative reducing page load from 11s to
@@ -150,6 +162,11 @@ export default function Home() {
               for new hires and anyone within the org that has a desire to
               learn. This is how Procore solved complex challenges, education!
             </li>
+            <li>
+              Worked with recruitment consitently to ensure a fair and amazing
+              interview process. I interviewed over 700 candidates, ensure that
+              recruitment had all required to be the best in the business :)
+            </li>
           </ul>
         </div>
 
@@ -162,7 +179,7 @@ export default function Home() {
             planning time by 60% and fuel costs by $2M annually
           </div>
           <div className="legacy-job">
-            <strong>VP of Research & Development</strong> | Sonian (2014-2015)
+            <strong>VP of Research & Development</strong> | Sonian (2013-2015)
             <br />
             Pioneered early serverless architecture with AWS Lambda team,
             reducing infrastructure costs by $1.2M annually while scaling to
